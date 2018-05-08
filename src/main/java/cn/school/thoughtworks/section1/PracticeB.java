@@ -20,7 +20,7 @@ public class PracticeB {
 //            }
 //        }
 //        return list;
-      
+
         return collection1.stream().filter((item) ->{for(List<String> list:collection2){ return  list.contains(item)==true;} return false;}).collect(toList());
     }
 }
